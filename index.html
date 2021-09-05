@@ -11,6 +11,8 @@
         rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 
@@ -32,7 +34,7 @@
             <i class="fas fa-bars" ></i>
         </nav>
 
-        <div class="text-box">
+        <div class="text-box" >
             <h1>World's Biggest University</h1>
             <p>Lorem ipsum dolor sit amefdft consectetur adipisicing elit. Accusantium amet ipsa doloremque totam nostrum<br> sed accusamus, dolores mollitia recusandae minus.</p>
             <a href="#" class="hero-btn" onclick="window.location='contact.html'">Visit Us to Know More</a>
@@ -46,17 +48,17 @@
 
         <div class="row">
 
-            <div class="course-col">
+            <div class="course-col" data-aos="fade-right">
                 <h3>Intermediate</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sapiente perspiciatis officia eligendi praesentium quod impedit modi id expedita fugiat!</p>
             </div>
 
-            <div class="course-col">
+            <div class="course-col" data-aos="fade-right" >
                 <h3>Diploma</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sapiente perspiciatis officia eligendi praesentium quod impedit modi id expedita fugiat!</p>
             </div>
 
-            <div class="course-col">
+            <div class="course-col" data-aos="fade-right" >
                 <h3>Degree</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sapiente perspiciatis officia eligendi praesentium quod impedit modi id expedita fugiat!</p>
             </div>
@@ -71,19 +73,19 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
         <div class="row">
-            <div class="campus-col">
+            <div class="campus-col" data-aos="slide-up">
                 <img src="london.png" alt="london">
                  <div class="layer">
                      <h3>LONDON</h3>
                  </div>
             </div>
-            <div class="campus-col">
+            <div class="campus-col" data-aos="slide-up">
                 <img src="newyork.png" alt="newyork">
                  <div class="layer">
                      <h3>NEW YORK</h3>
                  </div>
             </div>
-            <div class="campus-col">
+            <div class="campus-col" data-aos="slide-up">
                 <img src="washington.png" alt="washington">
                  <div class="layer">
                      <h3>WASHINGTON</h3>
@@ -196,6 +198,15 @@
             navlinks.style.right = "-200px";
         }
     </script>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+            offset: 120,
+            duration: 1000
+        });
+      </script>
+    
 </body>
 
 </html>
