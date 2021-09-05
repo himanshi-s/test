@@ -103,6 +103,7 @@ nav img{
         width: 200px;
         text-align: left;
         transition: right .5s linear;
+        overflow:hidden;
     }
     .nav-links ul li{
         display: block;
