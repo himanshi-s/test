@@ -3,7 +3,12 @@
     padding: 0;
     font-family: 'Poppins';
     box-sizing: border-box;
-    /* overflow: hidden; */
+    /* overflow-x: hidden; */
+    /* overflow-y: visible; */
+    /* overflow-x:hidden; */
+}
+body{
+    width: 100%;
 }
 .header{
     /* background-color: red; */
@@ -59,10 +64,12 @@ nav img{
 
 
 .text-box{
+    padding: 15px;
     color: #fff;
     text-align: center;
     /* background-color: red; */
     width: 80%;
+    height: max-content;
     position: absolute;
     top:50%; left: 50%;
     transform: translate(-50%,-50%);
@@ -104,7 +111,7 @@ nav img{
         width: 200px;
         text-align: left;
         transition: right .5s linear;
-        overflow:hidden;
+        /* overflow:hidden; */
     }
     .nav-links ul li{
         display: block;
@@ -291,6 +298,7 @@ nav img{
     text-align: center;
     width: 100%;
     margin-bottom: 5px;
+    overflow: hidden;
 }
 .footer h2{
     padding: 15px 0 ;
@@ -319,7 +327,8 @@ nav img{
     background-size: cover;
     text-align: center;
     color: #fff;
-    overflow:hidden;
+    /* overflow-x: hidden; */
+    
 }
 .sub-header h1{
     margin-top: 40px;
@@ -331,6 +340,7 @@ nav img{
     padding: 30px 0 40px;
     text-align: center;
     margin: auto;
+    overflow-x: hidden;
 }
 .about-col{
     /* background-color: #d41a0d; */
